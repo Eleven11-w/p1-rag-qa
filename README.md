@@ -1,6 +1,6 @@
 # p1-rag-qa · 领域知识库问答（RAG）
 
-> 状态：D1 起步（2026-09-03）
+> 状态：D1 已完成（2026-09-03）
 > 默认领域：因果推断 / 科研方法论（使用可公开资料）
 > 一句话：给定一批领域文档，用户提问后系统检索相关原文，并给出带来源引用的回答。
 
@@ -35,12 +35,12 @@ p1-rag-qa/
 
 ## D1 启动清单
 
-- [ ] 确定语料：≥20 份文档、总量 ≥5 万字，可公开使用
-- [ ] GitHub 网页创建同名空仓库 `p1-rag-qa`
-- [ ] 复制 `.env.example` 为 `.env` 并填入 API 密钥
-- [ ] 安装依赖：`pip install -r requirements.txt`
-- [ ] 运行结构化输出示例：`python src/day1_structured_demo.py`
-- [ ] 完成首次 commit 并 push（见根目录《GitHub操作指南.md》）
+- [x] 确定语料：24 篇因果推断论文入库（清单见 data/语料清单.md）
+- [x] GitHub 网页创建同名空仓库 `p1-rag-qa`
+- [x] 复制 `.env.example` 为 `.env` 并填入 API 密钥
+- [x] 安装依赖：`pip install -r requirements.txt`（venv 已建好）
+- [x] 运行结构化输出示例：输出 JSON，tokens=274
+- [x] 完成首次 commit 并 push
 
 ## 本地运行示例（D1）
 
